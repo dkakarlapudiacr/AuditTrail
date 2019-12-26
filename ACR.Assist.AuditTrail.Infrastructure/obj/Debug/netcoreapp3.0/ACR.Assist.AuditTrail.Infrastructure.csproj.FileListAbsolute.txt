@@ -1,0 +1,11 @@
+C:\acr_assist\ACR_Assist_AuditTrail_Microservice\ACR.Assist.AuditTrail.Infrastructure\bin\Debug\netcoreapp3.0\ACR.Assist.AuditTrail.Infrastructure.deps.json
+C:\acr_assist\ACR_Assist_AuditTrail_Microservice\ACR.Assist.AuditTrail.Infrastructure\bin\Debug\netcoreapp3.0\ACR.Assist.AuditTrail.Infrastructure.dll
+C:\acr_assist\ACR_Assist_AuditTrail_Microservice\ACR.Assist.AuditTrail.Infrastructure\bin\Debug\netcoreapp3.0\ACR.Assist.AuditTrail.Infrastructure.pdb
+C:\acr_assist\ACR_Assist_AuditTrail_Microservice\ACR.Assist.AuditTrail.Infrastructure\bin\Debug\netcoreapp3.0\ACR.Assist.AuditTrail.Core.dll
+C:\acr_assist\ACR_Assist_AuditTrail_Microservice\ACR.Assist.AuditTrail.Infrastructure\bin\Debug\netcoreapp3.0\ACR.Assist.AuditTrail.Core.pdb
+C:\acr_assist\ACR_Assist_AuditTrail_Microservice\ACR.Assist.AuditTrail.Infrastructure\obj\Debug\netcoreapp3.0\ACR.Assist.AuditTrail.Infrastructure.csprojAssemblyReference.cache
+C:\acr_assist\ACR_Assist_AuditTrail_Microservice\ACR.Assist.AuditTrail.Infrastructure\obj\Debug\netcoreapp3.0\ACR.Assist.AuditTrail.Infrastructure.AssemblyInfoInputs.cache
+C:\acr_assist\ACR_Assist_AuditTrail_Microservice\ACR.Assist.AuditTrail.Infrastructure\obj\Debug\netcoreapp3.0\ACR.Assist.AuditTrail.Infrastructure.AssemblyInfo.cs
+C:\acr_assist\ACR_Assist_AuditTrail_Microservice\ACR.Assist.AuditTrail.Infrastructure\obj\Debug\netcoreapp3.0\ACR.Assist.AuditTrail.Infrastructure.csproj.CopyComplete
+C:\acr_assist\ACR_Assist_AuditTrail_Microservice\ACR.Assist.AuditTrail.Infrastructure\obj\Debug\netcoreapp3.0\ACR.Assist.AuditTrail.Infrastructure.dll
+C:\acr_assist\ACR_Assist_AuditTrail_Microservice\ACR.Assist.AuditTrail.Infrastructure\obj\Debug\netcoreapp3.0\ACR.Assist.AuditTrail.Infrastructure.pdb
