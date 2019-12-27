@@ -5,7 +5,10 @@ namespace Acr.Assist.AuditTrail.Core.DTO
 {
     public class AuditTrailEntry
     {
-       public Guid LogID { get; set; }
+        /// <summary>
+        /// Gets or sets the Log identifier.
+        /// </summary>
+        public Guid LogID { get; set; }
 
         public string Username { get; set; }
 

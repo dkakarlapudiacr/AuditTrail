@@ -3,14 +3,10 @@ using System.Collections.Generic;
 using System.IO.Compression;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
-using System.Threading.Tasks;
 using Acr.Assist.AuditTrail.Infrastructure;
-using Acr.Assist.AuditTrail;
 using Acr.Assist.AuditTrail.Core.Infrastructure.Configuration;
 using Acr.Assist.AuditTrail.Core.Integrations;
-using Acr.Assist.AuditTrail.Core.Services;
 using Acr.Assist.AuditTrail.Data;
-using Acr.Assist.AuditTrail.Service;
 using Acr.Assist.AuditTrail.Service.Validator;
 using ACR.Assist.AuditTrail.Integrations;
 using AutoMapper;
@@ -29,6 +25,7 @@ using Serilog;
 using Swashbuckle.AspNetCore.Filters;
 using ACR.Assist.AuditTrail.Core.Data;
 using ACR.Assist.AuditTrail.Core.DTO;
+using Acr.Assist.AuditTrail.Service;
 
 namespace Acr.Assist.AuditTrail
 {
@@ -93,25 +90,6 @@ namespace Acr.Assist.AuditTrail
                         ValidAudience = authConfig.Audience,
                         IssuerSigningKey = GetKey(authConfig.KeyFilePath)
                     };
-
-                    options.Events = new JwtBearerEvents
-                    {
-                        OnMessageReceived = context =>
-                        {
-                            var accessToken = context.Request.Query["token"];
-                            if (!string.IsNullOrEmpty(accessToken))
-                            {
-                                context.Token = accessToken;
-                            }
-
-                            return Task.CompletedTask;
-                        },
-                        OnAuthenticationFailed = context =>
-                        {
-                            var te = context.Exception;
-                            return Task.CompletedTask;
-                        }
-                    };
                 });
 
             services.AddAuthorization(options =>
@@ -156,7 +134,7 @@ namespace Acr.Assist.AuditTrail
                        .AllowCredentials();
             }));
 
-            services.AddTransient<IAuditTrailService, AuditTrailService>();
+            services.AddTransient<Core.Services.IAuditTrailService, AuditTrailService>();
             services.AddTransient<IAuditTrailRepository>(s => new AuditTrailRepository(connectionString, mongoDBName));
             services.AddSingleton<IAuthorizationHandler, UserIdExistsRequirementHandler>();
             services.AddTransient<IAuthorizationMicroService, AuthorizationMicroService>();
@@ -215,6 +193,10 @@ namespace Acr.Assist.AuditTrail
                 c.RoutePrefix = Configuration["Environment:SwaggerRoutePrefix"];
                 c.DocumentTitle = Configuration["Title"] + " " + Configuration["Version"];
                 c.SwaggerEndpoint(Configuration["Environment:BaseURL"] + "/swagger/" + Configuration["Version"] + "/swagger.json", Configuration["Title"] + " " + Configuration["Version"]);
+            });
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllers();
             });
         }
 

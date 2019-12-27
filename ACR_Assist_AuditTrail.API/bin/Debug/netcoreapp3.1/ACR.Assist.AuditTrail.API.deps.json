@@ -2108,6 +2108,9 @@
         }
       },
       "ACR.Assist.AuditTrail.Core/1.0.0": {
+        "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "7.0.0"
+        },
         "runtime": {
           "ACR.Assist.AuditTrail.Core.dll": {}
         },
@@ -2155,7 +2158,9 @@
       "ACR.Assist.AuditTrail.Service/1.0.0": {
         "dependencies": {
           "ACR.Assist.AuditTrail.Core": "1.0.0",
+          "ACR.Assist.AuditTrail.Data": "1.0.0",
           "AutoMapper": "9.0.0",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "7.0.0",
           "FluentValidation": "8.6.0"
         },
         "runtime": {

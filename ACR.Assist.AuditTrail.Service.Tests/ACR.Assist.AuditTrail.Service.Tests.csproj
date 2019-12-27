@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="coverlet.msbuild" Version="2.7.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="3.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="3.1.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.2.0" />
+    <PackageReference Include="Moq" Version="4.13.1" />
+    <PackageReference Include="Serilog.Settings.Configuration" Version="3.1.0" />
+    <PackageReference Include="xunit" Version="2.4.0" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ACR.Assist.AuditTrail.Core\ACR.Assist.AuditTrail.Core.csproj" />
+    <ProjectReference Include="..\ACR.Assist.AuditTrail.Infrastructure\ACR.Assist.AuditTrail.Infrastructure.csproj" />
+    <ProjectReference Include="..\ACR.Assist.AuditTrail.Integrations\ACR.Assist.AuditTrail.Integrations.csproj" />
+    <ProjectReference Include="..\ACR.Assist.AuditTrail.Service\ACR.Assist.AuditTrail.Service.csproj" />
+    <ProjectReference Include="..\ACR_Assist_AuditTrail.API\ACR.Assist.AuditTrail.API.csproj" />
+  </ItemGroup>
+
+</Project>

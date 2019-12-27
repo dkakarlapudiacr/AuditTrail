@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ACR.Assist.AuditTrail.Servi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ACR.Assist.AuditTrail.API", "ACR_Assist_AuditTrail.API\ACR.Assist.AuditTrail.API.csproj", "{840E345F-29D6-49B1-8110-98C674C19BD3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACR.Assist.AuditTrail.Service.Tests", "ACR.Assist.AuditTrail.Service.Tests\ACR.Assist.AuditTrail.Service.Tests.csproj", "{8891745D-024D-432B-B452-C6DFD3661327}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{840E345F-29D6-49B1-8110-98C674C19BD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{840E345F-29D6-49B1-8110-98C674C19BD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{840E345F-29D6-49B1-8110-98C674C19BD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8891745D-024D-432B-B452-C6DFD3661327}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8891745D-024D-432B-B452-C6DFD3661327}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8891745D-024D-432B-B452-C6DFD3661327}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8891745D-024D-432B-B452-C6DFD3661327}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

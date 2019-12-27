@@ -1,7 +1,9 @@
-﻿
+﻿using Acr.Assist.AuditTrail.Core.Domain;
 using Acr.Assist.AuditTrail.Core.DTO;
 using Acr.Assist.AuditTrail.Core.Exception;
+using Acr.Assist.AuditTrail.Core.Integrations;
 using Acr.Assist.AuditTrail.Core.Services;
+using Acr.Assist.AuditTrail.Service.DataValidation;
 using Acr.Assist.AuditTrail.Service.Validator;
 using ACR.Assist.AuditTrail.Core.Data;
 using ACR.Assist.AuditTrail.Core.DTO;
@@ -10,12 +12,24 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
+
 namespace Acr.Assist.AuditTrail.Service
 {
     public class AuditTrailService : IAuditTrailService
     {
+        /// <summary>
+        /// The audit trail repository
+        /// </summary>
         private readonly IAuditTrailRepository audittrailRepository;
+
+        /// <summary>
+        /// The add  entry validator
+        /// </summary>
         private readonly IDataValidator<AddAuditTrailEntry> addaudittrailEntryValidator;
+
+        /// <summary>
+        /// The mapper
+        /// </summary>
         private readonly IMapper mapper;
 
         public AuditTrailService(
@@ -38,7 +52,6 @@ namespace Acr.Assist.AuditTrail.Service
 
             var auditTrailEntry = mapper.Map<AuditTrailEntry>(addaudittrailentry);
 
-            auditTrailEntry.LogID = Guid.NewGuid();
             auditTrailEntry.Username = addaudittrailentry.Username;
             auditTrailEntry.ModuleName = addaudittrailentry.ModuleName;
             auditTrailEntry.ActionType = addaudittrailentry.ActionType;

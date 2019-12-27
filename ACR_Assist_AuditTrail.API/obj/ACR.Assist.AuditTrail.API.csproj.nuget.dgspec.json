@@ -40,6 +40,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -286,6 +292,9 @@
             "projectReferences": {
               "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Core\\ACR.Assist.AuditTrail.Core.csproj": {
                 "projectPath": "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Core\\ACR.Assist.AuditTrail.Core.csproj"
+              },
+              "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Data\\ACR.Assist.AuditTrail.Data.csproj": {
+                "projectPath": "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Data\\ACR.Assist.AuditTrail.Data.csproj"
               }
             }
           }
@@ -302,6 +311,10 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[9.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             },
             "FluentValidation": {
               "target": "Package",

@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using Acr.Assist.AuditTrail.Core.DTO;
-using Acr.Assist.AuditTrail.Core.Integrations.DTO;
+
 using ACR.Assist.AuditTrail.Core.DTO;
 
 namespace Acr.Assist.AuditTrail.Core.Services

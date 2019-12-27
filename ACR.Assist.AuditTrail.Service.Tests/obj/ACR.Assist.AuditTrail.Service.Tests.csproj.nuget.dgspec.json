@@ -1,0 +1,586 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Service.Tests\\ACR.Assist.AuditTrail.Service.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Core\\ACR.Assist.AuditTrail.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Core\\ACR.Assist.AuditTrail.Core.csproj",
+        "projectName": "ACR.Assist.AuditTrail.Core",
+        "projectPath": "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Core\\ACR.Assist.AuditTrail.Core.csproj",
+        "packagesPath": "C:\\Users\\dkakarlapudi\\.nuget\\packages\\",
+        "outputPath": "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dkakarlapudi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Data\\ACR.Assist.AuditTrail.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Data\\ACR.Assist.AuditTrail.Data.csproj",
+        "projectName": "ACR.Assist.AuditTrail.Data",
+        "projectPath": "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Data\\ACR.Assist.AuditTrail.Data.csproj",
+        "packagesPath": "C:\\Users\\dkakarlapudi\\.nuget\\packages\\",
+        "outputPath": "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dkakarlapudi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Core\\ACR.Assist.AuditTrail.Core.csproj": {
+                "projectPath": "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Core\\ACR.Assist.AuditTrail.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "mongocsharpdriver": {
+              "target": "Package",
+              "version": "[2.9.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Infrastructure\\ACR.Assist.AuditTrail.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Infrastructure\\ACR.Assist.AuditTrail.Infrastructure.csproj",
+        "projectName": "ACR.Assist.AuditTrail.Infrastructure",
+        "projectPath": "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Infrastructure\\ACR.Assist.AuditTrail.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\dkakarlapudi\\.nuget\\packages\\",
+        "outputPath": "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dkakarlapudi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Core\\ACR.Assist.AuditTrail.Core.csproj": {
+                "projectPath": "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Core\\ACR.Assist.AuditTrail.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Integrations\\ACR.Assist.AuditTrail.Integrations.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Integrations\\ACR.Assist.AuditTrail.Integrations.csproj",
+        "projectName": "ACR.Assist.AuditTrail.Integrations",
+        "projectPath": "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Integrations\\ACR.Assist.AuditTrail.Integrations.csproj",
+        "packagesPath": "C:\\Users\\dkakarlapudi\\.nuget\\packages\\",
+        "outputPath": "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Integrations\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dkakarlapudi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Core\\ACR.Assist.AuditTrail.Core.csproj": {
+                "projectPath": "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Core\\ACR.Assist.AuditTrail.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.9.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Service.Tests\\ACR.Assist.AuditTrail.Service.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Service.Tests\\ACR.Assist.AuditTrail.Service.Tests.csproj",
+        "projectName": "ACR.Assist.AuditTrail.Service.Tests",
+        "projectPath": "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Service.Tests\\ACR.Assist.AuditTrail.Service.Tests.csproj",
+        "packagesPath": "C:\\Users\\dkakarlapudi\\.nuget\\packages\\",
+        "outputPath": "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Service.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dkakarlapudi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Core\\ACR.Assist.AuditTrail.Core.csproj": {
+                "projectPath": "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Core\\ACR.Assist.AuditTrail.Core.csproj"
+              },
+              "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Infrastructure\\ACR.Assist.AuditTrail.Infrastructure.csproj": {
+                "projectPath": "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Infrastructure\\ACR.Assist.AuditTrail.Infrastructure.csproj"
+              },
+              "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Integrations\\ACR.Assist.AuditTrail.Integrations.csproj": {
+                "projectPath": "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Integrations\\ACR.Assist.AuditTrail.Integrations.csproj"
+              },
+              "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Service\\ACR.Assist.AuditTrail.Service.csproj": {
+                "projectPath": "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Service\\ACR.Assist.AuditTrail.Service.csproj"
+              },
+              "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR_Assist_AuditTrail.API\\ACR.Assist.AuditTrail.API.csproj": {
+                "projectPath": "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR_Assist_AuditTrail.API\\ACR.Assist.AuditTrail.API.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.2.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.13.1, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "coverlet.msbuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.7.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Service\\ACR.Assist.AuditTrail.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Service\\ACR.Assist.AuditTrail.Service.csproj",
+        "projectName": "ACR.Assist.AuditTrail.Service",
+        "projectPath": "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Service\\ACR.Assist.AuditTrail.Service.csproj",
+        "packagesPath": "C:\\Users\\dkakarlapudi\\.nuget\\packages\\",
+        "outputPath": "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dkakarlapudi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Core\\ACR.Assist.AuditTrail.Core.csproj": {
+                "projectPath": "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Core\\ACR.Assist.AuditTrail.Core.csproj"
+              },
+              "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Data\\ACR.Assist.AuditTrail.Data.csproj": {
+                "projectPath": "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Data\\ACR.Assist.AuditTrail.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[8.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR_Assist_AuditTrail.API\\ACR.Assist.AuditTrail.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR_Assist_AuditTrail.API\\ACR.Assist.AuditTrail.API.csproj",
+        "projectName": "ACR.Assist.AuditTrail.API",
+        "projectPath": "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR_Assist_AuditTrail.API\\ACR.Assist.AuditTrail.API.csproj",
+        "packagesPath": "C:\\Users\\dkakarlapudi\\.nuget\\packages\\",
+        "outputPath": "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR_Assist_AuditTrail.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dkakarlapudi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Core\\ACR.Assist.AuditTrail.Core.csproj": {
+                "projectPath": "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Core\\ACR.Assist.AuditTrail.Core.csproj"
+              },
+              "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Data\\ACR.Assist.AuditTrail.Data.csproj": {
+                "projectPath": "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Data\\ACR.Assist.AuditTrail.Data.csproj"
+              },
+              "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Infrastructure\\ACR.Assist.AuditTrail.Infrastructure.csproj": {
+                "projectPath": "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Infrastructure\\ACR.Assist.AuditTrail.Infrastructure.csproj"
+              },
+              "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Integrations\\ACR.Assist.AuditTrail.Integrations.csproj": {
+                "projectPath": "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Integrations\\ACR.Assist.AuditTrail.Integrations.csproj"
+              },
+              "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Service\\ACR.Assist.AuditTrail.Service.csproj": {
+                "projectPath": "C:\\acr_assist\\ACR_Assist_AuditTrail_Microservice\\ACR.Assist.AuditTrail.Service\\ACR.Assist.AuditTrail.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.9.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Serilog.Sinks.Async": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Serilog.Sinks.RollingFile": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.0-rc4, )"
+            },
+            "Swashbuckle.AspNetCore.Filters": {
+              "target": "Package",
+              "version": "[5.0.0-rc8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
